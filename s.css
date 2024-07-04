@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(145, 117, 81);
+}
+body{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.ser input{
+    height: 50px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 700px;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+li {
+    transition: .5s;
+    cursor: pointer;
+}
+li:hover{
+
+    letter-spacing: 2px;
+}
+.log img{
+    height: 80px;
+    width: 250px;
+}
+
+.Sig{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: rgb(226, 216, 182)
+}
+.body{
+    
+    margin: 50px;
+    width: 400px;
+    margin-top: 100px;
+}
+.body h1{
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.body p{
+    font-size:18px;
+}
+td{
+    padding: 10px 20px;
+}
+table{
+    border-collapse: collapse;  
+    border-radius: 10px;
+    background:  rgba(128, 128, 128, 0.158);
+    box-shadow: 0 0 25px rgba(128, 128, 128, 0.308);
+    position: absolute;
+    right: 450px;
+    bottom: 160px;
+    width: 300px;
+    font-size: 20px;
+    z-index: 10;
+}
+.td1{
+    border-collapse: collapse;
+    border-right: 1px solid  rgb(145, 117, 81) ;
+}
+img[src="point.png"]{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 550px;
+    top: 100px;
+}
+img[src="book.png"]{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+
+}
+img[src="point1.png"]{
+    position: absolute;
+    right:500px;
+    bottom: 50px;
+    width: 200px;
+    height: 100px;
+    z-index: 9;
+}
+a img{
+    width: 40px ;
+    height: 40px;
+    transition: .5s;
+}
+a img:hover{
+    transform: scale(1.1);
+}
+.cont{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 50px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont ul{
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.i1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:100px;
+    right:400px;
+}
+.i4{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:200px;
+    right:300px;
+    z-index: 15;
+}
+.i2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:100px;
+    left:100px;
+    z-index: 15;
+}
+
+.i3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:250px;
+    right:550px;
+}
+.i5{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:50px;
+    left: 200px;
+}

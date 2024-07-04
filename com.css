@@ -1,0 +1,123 @@
+.body{
+    width: 100vw;
+    height: 80vh;
+}
+.right{
+    width: 80%;
+    height: 86vh;
+    display: flex;
+}
+.left{
+    height: 80vh;
+}
+.rgh li a {
+    width: 250px;
+    justify-content:start;
+}
+.rgh li a img{
+    margin-right: 10px;
+}
+.im{
+    width: 160px;
+}
+.im img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.stu p{
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(255, 160, 72, 0.459);
+    width: 80px;
+    height: 32px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.stu p:hover{
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+.stu h1+div{
+    display: flex;
+}
+.stu h1+div p{
+    width: 80px;
+    height: 30px;
+    background:rgba(255, 160, 72, 0.459);
+    margin-right: 10px;
+    border-radius: 20px;
+} 
+.stu div div:last-child{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+.lt{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 50px;
+}
+.rt{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding:10px ;
+    justify-content: space-between;
+}
+.he{
+    display: flex;
+    align-items: center;
+}
+.he img{
+    width: 25px;
+    height: 25px;
+}
+.stu h1{
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+}
+.stu{
+    width: 260px;
+    height: 150px;
+    background: white;
+   padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.a{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+    width: 100%;
+    height: 300px;
+}
+.a a{
+    background: white;
+    padding: 5%;
+}
+.a img{
+    width: 100%;
+    height:70%;
+}
+a p{
+    position: relative;
+}
+p span:last-child{
+    position: absolute;
+    right: 10px;
+    top: 88%;
+}
+.lt>div:last-child{
+    margin-top: 110px;
+}
